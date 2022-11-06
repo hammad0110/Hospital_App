@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_auth/screens/bed_book.dart';
+import 'package:hospital_auth/screens/doctor_book.dart';
+import 'package:hospital_auth/screens/vaccine_book.dart';
 
 Image logoWidget(String imageName) {
   return Image.asset(
@@ -36,15 +39,15 @@ TextField reusableTextField(String text, IconData icon, bool isPasswordType,
     obscureText: isPasswordType,
     enableSuggestions: !isPasswordType,
     autocorrect: !isPasswordType,
-    cursorColor: Colors.white,
-    style: TextStyle(color: Colors.white.withOpacity(0.9)),
+    cursorColor: Colors.black,
+    style: TextStyle(color: Colors.black.withOpacity(0.9)),
     decoration: InputDecoration(
       prefixIcon: Icon(
         icon,
-        color: Colors.white70,
+        color: Colors.black12,
       ),
       labelText: text,
-      labelStyle: TextStyle(color: Colors.white.withOpacity(0.9)),
+      labelStyle: TextStyle(color: Colors.black.withOpacity(0.9)),
       filled: true,
       floatingLabelBehavior: FloatingLabelBehavior.never,
       fillColor: Colors.white.withOpacity(0.3),
@@ -58,20 +61,33 @@ TextField reusableTextField(String text, IconData icon, bool isPasswordType,
   );
 }
 
-Container listButton(String buttonText, BuildContext context) {
+Container listButton(
+    String buttonText, BuildContext context, int page, IconData iconData) {
   return Container(
     width: MediaQuery.of(context).size.width,
     height: 160,
-    child: ElevatedButton(
-      child: Text(buttonText),
-      onPressed: () {},
+    child: ElevatedButton.icon(
+      icon: Icon(iconData, size: 70),
+      label: Text(buttonText),
+      onPressed: () {
+        if (page == 1) {
+          Navigator.push(context,
+              MaterialPageRoute(builder: ((context) => const BedBook())));
+        } else if (page == 2) {
+          Navigator.push(context,
+              MaterialPageRoute(builder: ((context) => const VaccineBook())));
+        } else if (page == 3) {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const DoctorBook()));
+        }
+      },
       style: ButtonStyle(
           //want to making elevation of the button as zero
           backgroundColor: MaterialStateProperty.resolveWith((states) {
             if (states.contains(MaterialState.pressed)) {
               return Colors.black26;
             }
-            return Colors.transparent;
+            return Colors.blue[200];
           }),
           shape: MaterialStateProperty.all(
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)))),

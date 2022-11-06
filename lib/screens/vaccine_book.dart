@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/reusable_widget/resuable_widget.dart';
-import 'package:hospital_auth/screens/home_scren.dart';
 
 class VaccineBook extends StatefulWidget {
   const VaccineBook({super.key});
@@ -48,7 +47,7 @@ class _VaccineBookState extends State<VaccineBook> {
             width: MediaQuery.of(context).size.width,
             margin: const EdgeInsets.fromLTRB(20, 20, 20, 0),
             child: reusableTextField(
-                "Mob of patient", Icons.phone_outlined, false, _patientName),
+                "Mob of patient", Icons.phone_outlined, false, _conatctNumber),
           ),
           Container(
             width: MediaQuery.of(context).size.width,
@@ -60,18 +59,44 @@ class _VaccineBookState extends State<VaccineBook> {
                       backgroundColor: Colors.white,
                       context: context,
                       builder: (context) => Column(children: [
-                            Image.asset(
-                              "assets/images/greentick.png",
+                            Container(
+                              width: MediaQuery.of(context).size.width * 0.3,
+                              height: MediaQuery.of(context).size.height * 0.3,
+                              child: Image.asset(
+                                "assets/images/greentick.png",
+                              ),
                             ),
-                            ElevatedButton(
+                            const SizedBox(
+                              child: Text("DONE !!",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w100,
+                                      color: Colors.black)),
+                            ),
+                            Container(
+                              width: MediaQuery.of(context).size.width * 0.8,
+                              child: ElevatedButton(
                                 onPressed: () {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const HomeScreen()));
+                                  Navigator.pop(context);
+                                  Navigator.pop(context);
                                 },
-                                child: Text("OKAY")),
+                                child: const Text("OKAY"),
+                                style: ButtonStyle(
+                                    backgroundColor:
+                                        MaterialStateProperty.resolveWith(
+                                            (states) {
+                                      if (states
+                                          .contains(MaterialState.pressed)) {
+                                        return Colors.black12;
+                                      }
+                                      return Colors.blue[200];
+                                    }),
+                                    shape: MaterialStateProperty.all(
+                                        RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(30)))),
+                              ),
+                            ),
                           ]));
                 },
                 child: const Text(

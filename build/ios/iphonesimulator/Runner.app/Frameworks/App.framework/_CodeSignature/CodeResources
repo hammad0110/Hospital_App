@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		2l+mqdcGThx2Uyx3mqTdfK4ba+w=
+		P96ofpMSSb5cm/lvxHi/iUhT5Rw=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -32,6 +32,22 @@
 		<data>
 		vaukMBWEqhwlf2o7AJGYXlP2Pvc=
 		</data>
+		<key>flutter_assets/assets/images/bed.png</key>
+		<data>
+		Qhy9K4uaSNMMbMpS2/Bu3njE+qE=
+		</data>
+		<key>flutter_assets/assets/images/doctor.png</key>
+		<data>
+		TEwH59d/w2yzbLyOdeUFHWIVjuM=
+		</data>
+		<key>flutter_assets/assets/images/greentick.png</key>
+		<data>
+		uTkNG/nBhXa397VygRZIV9X8WpQ=
+		</data>
+		<key>flutter_assets/assets/images/hospital.png</key>
+		<data>
+		kZfEM3+FILlGPOpux0QkNg92d6s=
+		</data>
 		<key>flutter_assets/assets/images/logo1.png</key>
 		<data>
 		gCMR/Ipde5lcQ/A8IJUz8b51Wko=
@@ -44,6 +60,10 @@
 		<data>
 		lIWyTnuT9vY8V+flaPmMeWca9/U=
 		</data>
+		<key>flutter_assets/assets/images/vacc.png</key>
+		<data>
+		Or/W9d8tkZNSW1ma1jzOhXrWm0Q=
+		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
 		mcmNrC70e/OT89y/p5EgxkVsLrs=
@@ -54,7 +74,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		AnOS6lReuQUTrinUFFcS3WjG7Uw=
+		lYcU07azKND0JzqkCXe4JwiGcbw=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -62,7 +82,7 @@
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
-		rucTjX6M1y8Ue070B/t6FDm8LrM=
+		d+AQEkax0Hx6rxMClUItrW4B99M=
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
@@ -75,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jmhh7WoKQkYMTToTW4034KCd95y2qkZaBG954of5QRo=
+			O8RdpV8CBtSpwOGbdxG+bgc9a/In0tjpue31w/mA/KU=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -106,6 +126,34 @@
 			0MhpJzLqb6o0FitN2oMWLngK2bZaInJiMYjGSSFsAs8=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/bed.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cSWlOtSt6Y9sKY5mPTGcLW2z10okT703p74iw0Pm5Uk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/doctor.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qiphpC8hJlTqA7p32+Ge57XtByLg+F3Nl5QvGP7ZXls=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/greentick.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zrBV4j5LZ2Nps2DCf9bsEMvs2lexCTpaW8WrZAAFXvo=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/hospital.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q9FmOULMqTyG7AfErLfc2HRCL86Ljl4Zh4qukw/NBDo=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/logo1.png</key>
 		<dict>
 			<key>hash2</key>
@@ -127,6 +175,13 @@
 			3vFejbh9dCrjmhXcYsVeh3+It/fAWKa7EI+V8t9HFgU=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/vacc.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F7SflkLovbq1OcMao7EnGfQ+f/4i6iTv2M0Yfwdv56k=
+			</data>
+		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<dict>
 			<key>hash2</key>
@@ -145,7 +200,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9D9+YQlfAdg0E6l8lM3lPtW4brh5fIm7TOT0dr4SWMY=
+			3JoHUTcR0VtZLtZzKUvN6wuGoDffAIypWeTj2gMn/oI=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -159,7 +214,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YM4AtP1LLO2+h8I6PZfWK6TQWxDwtOyBDLIh3SJDq6w=
+			NUcJXPjkL4OvW3zUNBOQ7UbYW4lvZ5Meqop86k4XCo8=
 			</data>
 		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>
