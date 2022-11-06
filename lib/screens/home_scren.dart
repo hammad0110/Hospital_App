@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 shape: BoxShape.circle,
               ),
-              child: Image.asset("assets/images/usericon.jpeg"),
+              child: Image.asset("assets/images/usericon.png"),
             ),
             const SizedBox(
               height: 10,
@@ -64,7 +64,49 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.black)),
             Container(
                 width: MediaQuery.of(context).size.width,
-                child: drawerButton(context))
+                child: drawerButton(context)),
+            Container(
+                width: MediaQuery.of(context).size.width,
+                height: 80,
+                margin: const EdgeInsets.fromLTRB(0, 30, 0, 0),
+                child: ElevatedButton(
+                    child: Text("EMERGENCY !!"),
+                    onPressed: () {},
+                    style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.resolveWith((states) {
+                          if (states.contains(MaterialState.pressed)) {
+                            return Colors.black12;
+                          }
+                          return Colors.red[400];
+                        }),
+                        shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30)))))),
+            Container(
+                width: MediaQuery.of(context).size.width,
+                height: 80,
+                margin: const EdgeInsets.fromLTRB(0, 10, 0, 0),
+                child: ElevatedButton(
+                    child: Text("LOG OUT"),
+                    onPressed: () {
+                      FirebaseAuth.instance.signOut().then((value) {
+                        print("SIGNOUT");
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const first_page()));
+                      });
+                    },
+                    style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.resolveWith((states) {
+                          if (states.contains(MaterialState.pressed)) {
+                            return Colors.black12;
+                          }
+                          return Colors.blue[200];
+                        }),
+                        shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30)))))),
           ],
         )));
   }
