@@ -30,28 +30,31 @@ class _BottomNavState extends State<BottomNav> {
             //icon: const Icon(Icons.dangerous_sharp),
           ),
         ),
-        bottomNavigationBar: BottomNavigationBar(
-            type: BottomNavigationBarType.fixed,
-            backgroundColor: Colors.deepPurple,
-            selectedItemColor: Colors.white,
-            currentIndex: currentIndex,
-            onTap: (value) {
-              setState(() {
-                currentIndex = value;
-              });
-            },
-            items: [
-              const BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.home,
-                  size: 40,
+        bottomNavigationBar: Container(
+          child: BottomNavigationBar(
+              type: BottomNavigationBarType.fixed,
+              backgroundColor: Colors.black,
+              selectedItemColor: Colors.white,
+              unselectedItemColor: Colors.white54,
+              currentIndex: currentIndex,
+              onTap: (value) {
+                setState(() {
+                  currentIndex = value;
+                });
+              },
+              items: const [
+                BottomNavigationBarItem(
+                  icon: Icon(
+                    Icons.home,
+                    size: 40,
+                  ),
+                  label: 'Home',
                 ),
-                label: 'Home',
-              ),
-              const BottomNavigationBarItem(
-                icon: Icon(Icons.person, size: 40),
-                label: 'Profile',
-              ),
-            ]),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.person, size: 40),
+                  label: 'Profile',
+                ),
+              ]),
+        ),
       );
 }

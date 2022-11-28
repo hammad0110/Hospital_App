@@ -25,15 +25,20 @@ class MyProfile extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
-        elevation: 0,
-        leading: BackButton(
-          onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const BottomNav()));
-          },
+        backgroundColor: Colors.transparent,
+        title: const Text(
+          "PROFILE",
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
+        elevation: 0,
+        // leading: BackButton(
+        //   onPressed: () {
+        //     Navigator.pop(context,
+        //         MaterialPageRoute(builder: (context) => const BottomNav()));
+        //   },
+        // ),
       ),
       body: Container(
         decoration: BoxDecoration(
@@ -47,10 +52,10 @@ class MyProfile extends StatelessWidget {
             Column(
               children: [
                 Container(
-                  height: 120,
+                  height: 150,
                 ),
                 Container(
-                  height: 500,
+                  height: 600,
                   width: double.infinity,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 15,
@@ -66,7 +71,6 @@ class MyProfile extends StatelessWidget {
                   ),
                   child: ListView(
                     children: [
-                      const SizedBox(height: 20),
                       ListTile(
                           title: TextFormField(
                         decoration: const InputDecoration(
@@ -195,7 +199,7 @@ class MyProfile extends StatelessWidget {
             ),
             const Padding(
               padding: EdgeInsets.only(
-                top: 40,
+                top: 150,
                 left: 15,
               ),
               child: CircleAvatar(

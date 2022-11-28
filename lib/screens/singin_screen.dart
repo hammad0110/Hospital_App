@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:hospital_auth/main.dart';
 import 'package:hospital_auth/screens/bottom_nav_main.dart';
 import 'package:hospital_auth/screens/signup_screen.dart';
-
 import '../reusable_widget/resuable_widget.dart';
 import '../utils/color_utils.dart';
 

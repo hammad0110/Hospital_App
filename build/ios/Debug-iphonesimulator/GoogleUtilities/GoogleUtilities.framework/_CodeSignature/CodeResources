@@ -102,7 +102,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
+<<<<<<< HEAD
 		G3D2M+1kDadmXIvyj64rZyMJmpc=
+=======
+		b/LHYMVYZ/f9iKRKMTUH6n/TeP4=
+>>>>>>> e11d36bacee572e6a58f00f52664ac6f9bc1b28a
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

@@ -12,9 +12,9 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   var imgList = {
-    "assets/images/imageC1.png",
-    "assets/images/imagec2.png",
-    "assets/images/imagec3.png"
+    "assets/images/imagec3.png",
+    "assets/images/himage2.png",
+    "assets/images/himage3.png"
   };
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,14 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: CarouselSlider(
                 items: imgList
                     .map((item) => Container(
-                          child: Center(
-                            child: Image.asset(
-                              item,
-                              fit: BoxFit.cover,
-                              width: MediaQuery.of(context).size.width * 0.8,
-                              height: 300,
-                            ),
-                          ),
+                          child: Center(child: Image.asset(item)),
                         ))
                     .toList(),
                 options: CarouselOptions(
