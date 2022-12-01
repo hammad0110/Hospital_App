@@ -56,6 +56,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "crypto",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.5",
       "packageUri": "lib/",
@@ -140,6 +146,36 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "google_sign_in",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_android",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_android-6.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_ios",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_ios-5.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "http_parser",
       "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.2",
       "packageUri": "lib/",
@@ -182,6 +218,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "logger",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/logger-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "matcher",
       "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.12",
       "packageUri": "lib/",
@@ -212,6 +254,30 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "quiver",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sign_in_with_apple",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/sign_in_with_apple-4.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sign_in_with_apple_platform_interface",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/sign_in_with_apple_platform_interface-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sign_in_with_apple_web",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/sign_in_with_apple_web-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -226,6 +292,12 @@
     {
       "name": "stack_trace",
       "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "stacked_firebase_auth",
+      "rootUri": "file:///Users/hammadkhan/Documents/flutterdev/flutter/.pub-cache/hosted/pub.dartlang.org/stacked_firebase_auth-0.2.18",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -320,7 +392,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-11-30T09:30:18.038011Z",
+  "generated": "2022-12-01T10:26:45.048269Z",
   "generator": "pub",
   "generatorVersion": "2.18.4"
 }
