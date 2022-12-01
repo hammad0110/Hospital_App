@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:hospital_auth/screens/bottom_nav_main.dart';
+
 import 'package:hospital_auth/utils/color_utils.dart';
 import 'first_page.dart';
 

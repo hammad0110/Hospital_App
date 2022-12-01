@@ -41,7 +41,6 @@ dependencies:
   fluttertoast: ^8.1.1
   flutter_sms: ^2.3.3
   location: ^4.2.0
-  stacked_firebase_auth: ^0.2.2+1
 
 dev_dependencies:
   flutter_test:
