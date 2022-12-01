@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/flutter_sms/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/flutter_sms/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/flutter_sms/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/flutter_sms/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    }
+]

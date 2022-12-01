@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/url_launcher_android/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/url_launcher_android/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/url_launcher_android/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/url_launcher_android/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/url_launcher_android/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/hammadkhan/Documents/GitHub/Hospital_App/build/url_launcher_android/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/Users/hammadkhan/.gradle/caches/transforms-3/d3f94a72f8937cfd842617526df22a1b/transformed/core-1.6.0/res/layout/notification_action.xml"
+    }
+]
