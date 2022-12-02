@@ -19,7 +19,7 @@ class _first_pageState extends State<first_page> {
           backgroundColor: Colors.transparent,
           elevation: 0,
           title: const Text(
-            "HOSPITAL HELP",
+            "AUTHENTICATION",
             style: TextStyle(
                 fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
           ),
@@ -39,7 +39,7 @@ class _first_pageState extends State<first_page> {
                       20, MediaQuery.of(context).size.height * 0.3, 20, 0),
                   child: Column(
                     children: [
-                      const Text("Sign In as a ?",
+                      const Text("",
                           style: TextStyle(fontSize: 20, color: Colors.white)),
                       Container(
                           width: MediaQuery.of(context).size.width,

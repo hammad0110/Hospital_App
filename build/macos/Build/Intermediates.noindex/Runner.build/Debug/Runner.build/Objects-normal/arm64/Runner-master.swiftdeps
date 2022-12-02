@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
-options: "f3382f5c06e824d3dbab7ac7203ee5069eccc24236fdbacc7a9b815d9469aa54"
-build_start_time: [1666602136, 499397039]
-build_end_time: [1666602142, 719998836]
-inputs:
-  "/Users/hammadkhan/Documents/hospital_auth/macos/Flutter/GeneratedPluginRegistrant.swift": [1666602122, 208494663]
-  "/Users/hammadkhan/Documents/hospital_auth/macos/Runner/AppDelegate.swift": [1664348672, 0]
-  "/Users/hammadkhan/Documents/hospital_auth/macos/Runner/MainFlutterWindow.swift": [1664348672, 0]

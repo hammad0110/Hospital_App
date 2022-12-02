@@ -13,25 +13,6 @@ Image logoWidget(String imageName) {
   );
 }
 
-Container drawerButton(BuildContext context) {
-  return Container(
-      width: MediaQuery.of(context).size.width,
-      height: 80,
-      margin: const EdgeInsets.fromLTRB(0, 30, 0, 0),
-      child: ElevatedButton(
-          child: Text("MY BOOKINGS"),
-          onPressed: () {},
-          style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.resolveWith((states) {
-                if (states.contains(MaterialState.pressed)) {
-                  return Colors.black12;
-                }
-                return Colors.transparent;
-              }),
-              shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30))))));
-}
-
 TextField reusableTextField(String text, IconData icon, bool isPasswordType,
     TextEditingController controller) {
   return TextField(
@@ -40,17 +21,19 @@ TextField reusableTextField(String text, IconData icon, bool isPasswordType,
     enableSuggestions: !isPasswordType,
     autocorrect: !isPasswordType,
     cursorColor: Colors.black,
+
     style: TextStyle(color: Colors.black.withOpacity(0.9)),
     decoration: InputDecoration(
       prefixIcon: Icon(
         icon,
-        color: Colors.black12,
+        color: Colors.black,
       ),
       labelText: text,
-      labelStyle: TextStyle(color: Colors.black.withOpacity(0.9)),
+      labelStyle: TextStyle(
+          color: Colors.black87, fontSize: 20, fontWeight: FontWeight.bold),
       filled: true,
-      floatingLabelBehavior: FloatingLabelBehavior.never,
-      fillColor: Colors.white.withOpacity(0.3),
+      floatingLabelBehavior: FloatingLabelBehavior.auto,
+      fillColor: Colors.white.withOpacity(0.7),
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(30.0),
       ),
@@ -67,8 +50,15 @@ Container listButton(
     width: MediaQuery.of(context).size.width,
     height: 160,
     child: ElevatedButton.icon(
-      icon: Icon(iconData, size: 70),
-      label: Text(buttonText),
+      icon: Icon(
+        iconData,
+        size: 70,
+        color: Colors.black,
+      ),
+      label: Text(
+        buttonText,
+        style: const TextStyle(color: Colors.black),
+      ),
       onPressed: () {
         if (page == 1) {
           Navigator.push(context,
@@ -87,7 +77,7 @@ Container listButton(
             if (states.contains(MaterialState.pressed)) {
               return Colors.black26;
             }
-            return Colors.blue[200];
+            return Colors.white.withOpacity(0.5);
           }),
           shape: MaterialStateProperty.all(
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)))),

@@ -1,11 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hospital_auth/main.dart';
+import 'package:hospital_auth/screens/bottom_nav_main.dart';
 import 'package:hospital_auth/screens/signup_screen.dart';
-
 import '../reusable_widget/resuable_widget.dart';
 import '../utils/color_utils.dart';
-import 'home_scren.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);
@@ -63,7 +62,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const HomeScreen()));
+                            builder: (context) => const BottomNav()));
                   }).onError((error, stackTrace) {
                     print("Error ${error.toString()}");
                   });
@@ -81,7 +80,7 @@ class _SignInScreenState extends State<SignInScreen> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        const Text("Don't have account?",
+        const Text("Don't have an account?",
             style: TextStyle(color: Colors.white70)),
         GestureDetector(
           onTap: () {
