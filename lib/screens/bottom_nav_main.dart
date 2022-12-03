@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_auth/screens/emergency.dart';
 import 'package:hospital_auth/screens/home_scren.dart';
 import 'package:hospital_auth/screens/pfp.dart';
 
@@ -22,7 +23,10 @@ class _BottomNavState extends State<BottomNav> {
           width: 80,
           child: FloatingActionButton.extended(
             backgroundColor: Colors.red,
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const Emergency()));
+            },
             label: const Text(
               'SOS',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
