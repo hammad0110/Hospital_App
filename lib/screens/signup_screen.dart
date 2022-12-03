@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:hospital_auth/screens/bottom_nav_main.dart';
 import '../reusable_widget/resuable_widget.dart';
 import '../utils/color_utils.dart';
-import 'home_scren.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({Key? key}) : super(key: key);
