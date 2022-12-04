@@ -33,12 +33,6 @@ class MyProfile extends StatelessWidget {
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         elevation: 0,
-        // leading: BackButton(
-        //   onPressed: () {
-        //     Navigator.pop(context,
-        //         MaterialPageRoute(builder: (context) => const BottomNav()));
-        //   },
-        // ),
       ),
       body: Container(
         decoration: BoxDecoration(

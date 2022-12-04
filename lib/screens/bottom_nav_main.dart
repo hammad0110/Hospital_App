@@ -18,7 +18,7 @@ class _BottomNavState extends State<BottomNav> {
         body: screen[currentIndex],
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         floatingActionButton: Container(
-          margin: EdgeInsets.fromLTRB(0, 90, 0, 0),
+          margin: const EdgeInsets.fromLTRB(0, 90, 0, 0),
           height: 80,
           width: 80,
           child: FloatingActionButton.extended(
@@ -31,31 +31,29 @@ class _BottomNavState extends State<BottomNav> {
             //icon: const Icon(Icons.dangerous_sharp),
           ),
         ),
-        bottomNavigationBar: Container(
-          child: BottomNavigationBar(
-              type: BottomNavigationBarType.fixed,
-              backgroundColor: Colors.black,
-              selectedItemColor: Colors.white,
-              unselectedItemColor: Colors.white54,
-              currentIndex: currentIndex,
-              onTap: (value) {
-                setState(() {
-                  currentIndex = value;
-                });
-              },
-              items: const [
-                BottomNavigationBarItem(
-                  icon: Icon(
-                    Icons.home,
-                    size: 40,
-                  ),
-                  label: 'Home',
+        bottomNavigationBar: BottomNavigationBar(
+            type: BottomNavigationBarType.fixed,
+            backgroundColor: Colors.black,
+            selectedItemColor: Colors.white,
+            unselectedItemColor: Colors.white54,
+            currentIndex: currentIndex,
+            onTap: (value) {
+              setState(() {
+                currentIndex = value;
+              });
+            },
+            items: const [
+              BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.home,
+                  size: 40,
                 ),
-                BottomNavigationBarItem(
-                  icon: Icon(Icons.person, size: 40),
-                  label: 'Profile',
-                ),
-              ]),
-        ),
+                label: 'Home',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.person, size: 40),
+                label: 'Profile',
+              ),
+            ]),
       );
 }

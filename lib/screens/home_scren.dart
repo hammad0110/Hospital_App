@@ -24,20 +24,31 @@ class _HomeScreenState extends State<HomeScreen> {
           backgroundColor: Colors.transparent,
           elevation: 0,
           automaticallyImplyLeading: false,
-          title: Text(
+          title: const Text(
             "MEDIZINE",
             style: TextStyle(
-                fontFamily: 'Silkscreen',
-                fontSize: 40,
-                color: Colors.white.withOpacity(0.7)),
+                fontFamily: 'Silkscreen', fontSize: 30, color: Colors.white),
           ),
+          actions: [
+            Padding(
+              padding: const EdgeInsets.only(right: 25, top: 10),
+              child: GestureDetector(
+                onTap: () {},
+                child: const Icon(
+                  Icons.chat,
+                  color: Colors.blue,
+                  size: 40,
+                ),
+              ),
+            )
+          ],
         ),
         backgroundColor: Colors.white,
         extendBodyBehindAppBar: true,
         body: SingleChildScrollView(
           child: Container(
             width: MediaQuery.of(context).size.width,
-            height: 1200,
+            height: 1000,
             decoration: BoxDecoration(
                 gradient: LinearGradient(colors: [
               hexStringToColor("416C71"),
@@ -47,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Column(
               children: [
                 const SizedBox(
-                  height: 100,
+                  height: 150,
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width * 1,
@@ -67,6 +78,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       enlargeCenterPage: true,
                     ),
                   ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                const Divider(
+                  color: Colors.white,
                 ),
                 Container(
                     width: 290,
